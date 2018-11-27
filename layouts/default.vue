@@ -1,6 +1,11 @@
 <template>
   <div>
     <nuxt/>
+    <footer class="footer">
+      <div class="container-footer">
+        <span class="text-muted">Noare Films - 2018</span>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -51,5 +56,11 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+.container-footer{
+  text-align: center;
+  height: 40px;
+  background-color: aqua;
+  padding: 8px;
 }
 </style>

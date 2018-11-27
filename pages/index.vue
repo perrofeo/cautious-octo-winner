@@ -10,36 +10,67 @@
         <img src="~/assets/LOGO_noare_blanco.png" alt="Noare Films">
       </div>
       <h2 class="subtitle">
-        My neat Nuxt.js project
+        Creación audiovisual
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+          href="#" v-scroll-to="'#demo'"
+          class="button--green"><font-awesome-icon icon="arrow-down" size="2x" /></a>
       </div>
     </div>
   </div>
   </div>
-  <demo/>
+  <demo id="demo"></demo>
+  <div class="descripcion">
+    <b-container>
+      <b-row align-h="center">
+        <b-col sm="12">
+          <h2>Contacto</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <div class="links">
+        <a
+          href="#"
+          class="button--green">Youtube</a>
+          <a
+          href="#"
+          class="button--green">Instagram</a>
+      </div>
+          <h4>arkaitz@noarefilms.com</h4>
+          </b-col>
+        
+    </b-row>
+    </b-container>
+  </div>
 </section>
 
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 import Demo from '~/components/Demo.vue'
+import VueScrollTo from 'vue-scrollto';
+
 
 
 
 export default {
   components: {
     Demo 
+  },
+  head () {
+    return {
+      title: 'Noare Films',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
   }
+
 }
 </script>
 
@@ -49,6 +80,7 @@ export default {
     background-size: cover;
     background-position: 50%;
     overflow: hidden;
+    
     
     
     
@@ -65,15 +97,16 @@ export default {
     height: auto;
     min-height: 100%;
     background-image: url("~assets/timelapse_img.png");
+    background-color: black;
 }
 .logo{
    display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  transform: rotateX(180deg);
+  
   position: relative;
   overflow: hidden;
   height: 101px;
   width: 245px;
+  z-index: 10;
 }
 .logo img{
   width: 100%;
@@ -107,5 +140,9 @@ export default {
 
 .links {
   padding-top: 15px;
+  padding-bottom: 30px;
+}
+.links .icon{
+  padding: 10px;
 }
 </style>
