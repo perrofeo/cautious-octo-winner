@@ -9,13 +9,11 @@
       <div class="logo">
         <img src="~/assets/LOGO_noare_blanco.png" alt="Noare Films">
       </div>
-      <h2 class="subtitle">
-        Creación audiovisual
-      </h2>
+      
       <div class="links">
         <a
           href="#" v-scroll-to="'#demo'"
-          class="button--green"><font-awesome-icon icon="arrow-down" size="2x" /></a>
+          class="button--white">entrar</a>
       </div>
     </div>
   </div>
@@ -24,8 +22,10 @@
   <div class="descripcion">
     <b-container>
       <b-row align-h="center">
-        <b-col sm="12">
-          <h2>Contacto</h2>
+        <b-col sm="8">
+          <div class="logo2">
+        <img src="~/assets/LOGO_noare_blanco.png" alt="Noare Films">
+      </div>
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -35,10 +35,10 @@
             <div class="links">
         <a
           href="#"
-          class="button--green">Youtube</a>
+          class="button--white">Youtube</a>
           <a
           href="#"
-          class="button--green">Instagram</a>
+          class="button--white">Instagram</a>
       </div>
           <h4>arkaitz@noarefilms.com</h4>
           </b-col>
@@ -104,11 +104,18 @@ export default {
   
   position: relative;
   overflow: hidden;
-  height: 101px;
-  width: 245px;
+  
+  max-width: 350px;
   z-index: 10;
 }
-.logo img{
+.logo2{
+  max-width: 300px;
+  display: inline-block;
+  
+  position: relative;
+  overflow: hidden;
+}
+.logo img, .logo2 img{
   width: 100%;
 }
 
@@ -121,8 +128,7 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -136,6 +142,12 @@ export default {
   color: black;
   word-spacing: 5px;
   padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.descripcion, #demo{
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: rgb(204, 204, 204);
 }
 
 .links {

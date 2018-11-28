@@ -1,6 +1,6 @@
 <template>
   <div class="demo">
-    <h1 class="">Show-reel</h1>
+    <h1 class="">CONTAMOS<br>TU HISTORIA</h1>
     <div class="demo-video">
         <b-embed type="iframe"
                  aspect="16by9"
@@ -20,7 +20,7 @@
     justify-content: center;
     
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 25px;
     background-color: black;
     }
     .demo-video{
