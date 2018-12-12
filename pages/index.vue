@@ -40,7 +40,7 @@ export default {
       title: 'Noare Films',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'My custom description' }
+        { hid: 'description', name: 'description', content: 'En Noare Films nos encanta relatar historias a través de imágenes y música.' }
       ]
     }
   }
