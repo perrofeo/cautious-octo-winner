@@ -40,8 +40,11 @@ html {
 .button--white:hover {
   color: #fff;
   background-color: black;
-  border: none;
+  border-color: transparent;
   text-decoration: none;
+}
+.links2 .button--white:hover{
+  background-color: grey;
 }
 
 .button--grey {

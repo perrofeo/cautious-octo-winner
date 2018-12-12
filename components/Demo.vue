@@ -17,9 +17,22 @@
           
           <p>En Noare Films nos encanta relatar historias a través de imágenes y música. 
             Nos dedicamos a la producción audiovisual en varios campos. 
-            Nuestro objetivo es crear videos con un toque cinematográfico que consigan emocionar y sorprender.</p>
+            Nuestro objetivo es crear videos con un toque cinematográfico que consigan emocionar y sorprender.</p><br>
+            <div class="lista">
+            <p>Somos especialistas en realizar:</p>
+            <div class="lista2">
+            <ul class="text-left">
+  <li>Reportajes de boda</li>
+  <li>Videoclips</li>
+  <li>Videomarketing</li>
+  <li>Comuniones</li>
+  <li>Eventos sociales</li>
+  <li>Invitaciones de boda</li>
+</ul>
+            </div>
+            </div>
 
-            <div class="links">
+            <div class="links2">
         <a
           href="https://vimeo.com/noarefilms"
           target="_blank"
@@ -29,7 +42,7 @@
           target="_blank"
           class="button--white">Instagram</a>
       </div>
-          <h4>contacto@noarefilms.com</h4>
+          <p><a href="mailto:contacto@noarefilms.com"><strong>contacto@noarefilms.com</strong></a></p>
           </b-col>
         
     </b-row>
@@ -59,19 +72,32 @@
   background-color: black;
   color: rgb(204, 204, 204);
 }
+.descripcion{
+  padding-top: 30px;
+}
 .descripcion .container{
   height: auto;
 }
 .descripcion img{
   padding-bottom: 30px;
 }
+.lista{
 
-.links {
-  padding-top: 15px;
-  padding-bottom: 30px;
+  text-align: center;
+  padding-bottom: 20px;
 }
-.links .icon{
-  padding: 10px;
+.lista2{
+  display: inline-block;
+}
+.links2 {
+  padding: 15px 0px 30px;
+}
+.links2 a{
+  margin: 0 10px;
+  
+}
+.descripcion a{
+  color: rgb(204, 204, 204);
 }
     
 </style>
