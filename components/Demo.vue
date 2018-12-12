@@ -96,7 +96,7 @@
   padding: 15px 0px 40px;
 }
 .links2 a{
-  margin: 0 10px;
+  margin: 10px 10px;
   
 }
 .descripcion a{
