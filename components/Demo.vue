@@ -1,6 +1,6 @@
 <template>
   <div class="demo">
-    <h1 class="">CONTAMOS<br>TU HISTORIA</h1>
+    
     <div class="demo-video">
         <b-embed type="iframe"
                  aspect="16by9"
@@ -24,7 +24,7 @@
     background-color: black;
     }
     .demo-video{
-      max-width: 700px;
+      max-width: 900px;
       width: 100%;
       margin: auto;
     }

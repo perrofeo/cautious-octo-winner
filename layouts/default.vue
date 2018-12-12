@@ -40,6 +40,8 @@ html {
 .button--white:hover {
   color: #fff;
   background-color: black;
+  border: none;
+  text-decoration: none;
 }
 
 .button--grey {
