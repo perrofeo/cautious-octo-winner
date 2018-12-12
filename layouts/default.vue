@@ -3,7 +3,7 @@
     <nuxt/>
     <footer class="footer">
       <div class="container-footer">
-        <div>NOARE FILMS © 2018 - BY <a href="http://motxuelo.com/" target="_blank">MOTXUELO</a></div>
+        <div>NOARE FILMS © 2018 - BY <a href="http://motxuelo.com/" target="_blank" rel="noopener">MOTXUELO</a></div>
       </div>
     </footer>
   </div>

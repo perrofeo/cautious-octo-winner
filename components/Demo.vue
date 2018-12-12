@@ -37,10 +37,12 @@
         <a
           href="https://vimeo.com/noarefilms"
           target="_blank"
+          rel="noopener"
           class="button--white">Vimeo</a>
           <a
           href="https://www.instagram.com/noarefilms/"
           target="_blank"
+          rel="noopener"
           class="button--white">Instagram</a>
       </div>
           <p><a href="mailto:contacto@noarefilms.com"><strong>contacto@noarefilms.com</strong></a></p>
