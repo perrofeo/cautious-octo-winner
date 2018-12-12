@@ -92,6 +92,9 @@ export default {
 .logo img, .logo2 img{
   width: 100%;
 }
+.links{
+  margin-top: 20px;
+}
 
 .Header .container {
   min-height: 100vh;
