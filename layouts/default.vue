@@ -63,7 +63,7 @@ html {
   height: 40px;
   color: rgb(204, 204, 204);
   padding: 8px;
-  border-top: solid 1px rgb(204, 204, 204);
+  font-size: 0.7rem;
   background-color: black;
 }
 .container-footer a{
