@@ -1,8 +1,8 @@
 <template>
 <section class="Header">
   <div class="VideoBg">
-  <video autoplay="autoplay" loop="loop" muted="muted" style="visibility: visible;">
-    <source src="~/assets/timelapse.mp4" type="video/mp4">
+    <video autoplay="autoplay" loop="loop" muted="muted" style="visibility: visible;">
+    <source src="~/assets/Noare15s.mp4" type="video/mp4">
   </video>
   <div class="container">
     <div>
@@ -26,18 +26,18 @@
           <div class="logo2">
         <img src="~/assets/LOGO_noare_blanco.png" alt="Noare Films">
       </div>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <p>En Noare Films nos encanta relatar historias a través de imágenes y música, 
+            nos dedicamos a la producción audiovisual en varios campos. 
+            Nuestro objetivo es crear películas con un toque cinematográfico que consigan emocionar y sorprender.</p>
 
             <div class="links">
         <a
-          href="#"
-          class="button--white">Youtube</a>
+          href="https://vimeo.com/noarefilms"
+          target="_blank"
+          class="button--white">Vimeo</a>
           <a
-          href="#"
+          href="https://www.instagram.com/noarefilms/"
+          target="_blank"
           class="button--white">Instagram</a>
       </div>
           <h4>arkaitz@noarefilms.com</h4>
@@ -96,7 +96,7 @@ export default {
     min-width: 100%;
     height: auto;
     min-height: 100%;
-    background-image: url("~assets/timelapse_img.png");
+    background-image: url("~assets/frame1.png");
     background-color: black;
 }
 .logo{
@@ -148,6 +148,9 @@ export default {
   font-family: 'Open Sans', sans-serif;
   background-color: black;
   color: rgb(204, 204, 204);
+}
+.descripcion img{
+  padding-bottom: 30px;
 }
 
 .links {

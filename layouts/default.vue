@@ -3,7 +3,7 @@
     <nuxt/>
     <footer class="footer">
       <div class="container-footer">
-        <span>NOARE FILMS © 2018 - BY MOTXUELO</span>
+        <div>NOARE FILMS © 2018 - BY <a href="http://motxuelo.com/" target="_blank">MOTXUELO</a></div>
       </div>
     </footer>
   </div>
@@ -63,5 +63,8 @@ html {
   padding: 8px;
   border-top: solid 1px rgb(204, 204, 204);
   background-color: black;
+}
+.container-footer a{
+  color: rgb(204, 204, 204);
 }
 </style>

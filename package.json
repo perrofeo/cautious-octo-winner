@@ -29,6 +29,7 @@
     "vue-videobg": "^2.0.0"
   },
   "devDependencies": {
+    "cypress": "^3.1.2",
     "nodemon": "^1.11.0"
   }
 }
