@@ -13,7 +13,7 @@
       <div class="links">
         <a
           href="#" v-scroll-to="'#demo'"
-          class="button--white">entrar</a>
+          class="button--white">Saber más</a>
       </div>
     </div>
   </div>
