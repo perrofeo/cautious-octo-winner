@@ -40,7 +40,8 @@ module.exports = {
   */
   plugins: [
     '~plugins/vue-scrollto.js',
-    '~plugins/font-awesome.js'
+    '~plugins/font-awesome.js',
+    { src: '~plugins/ga.js', ssr: false }
   ],
 
   /*
