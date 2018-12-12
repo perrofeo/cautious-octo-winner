@@ -39,7 +39,7 @@ html {
 
 .button--white:hover {
   color: #fff;
-  background-color: #3b8070;
+  background-color: black;
 }
 
 .button--grey {
