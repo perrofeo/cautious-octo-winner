@@ -19,33 +19,7 @@
   </div>
   </div>
   <demo id="demo"></demo>
-  <div class="descripcion">
-    <b-container>
-      <b-row align-h="center">
-        <b-col sm="8">
-          <div class="logo2">
-        <img src="~/assets/LOGO_noare_blanco.png" alt="Noare Films">
-      </div>
-          <p>En Noare Films nos encanta relatar historias a través de imágenes y música, 
-            nos dedicamos a la producción audiovisual en varios campos. 
-            Nuestro objetivo es crear películas con un toque cinematográfico que consigan emocionar y sorprender.</p>
-
-            <div class="links">
-        <a
-          href="https://vimeo.com/noarefilms"
-          target="_blank"
-          class="button--white">Vimeo</a>
-          <a
-          href="https://www.instagram.com/noarefilms/"
-          target="_blank"
-          class="button--white">Instagram</a>
-      </div>
-          <h4>contacto@noarefilms.com</h4>
-          </b-col>
-        
-    </b-row>
-    </b-container>
-  </div>
+  
 </section>
 
 </template>
@@ -119,7 +93,7 @@ export default {
   width: 100%;
 }
 
-.container {
+.Header .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -144,20 +118,5 @@ export default {
   padding-bottom: 15px;
   font-family: 'Open Sans', sans-serif;
 }
-.descripcion, #demo{
-  font-family: 'Open Sans', sans-serif;
-  background-color: black;
-  color: rgb(204, 204, 204);
-}
-.descripcion img{
-  padding-bottom: 30px;
-}
 
-.links {
-  padding-top: 15px;
-  padding-bottom: 30px;
-}
-.links .icon{
-  padding: 10px;
-}
 </style>
