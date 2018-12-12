@@ -3,6 +3,7 @@
     
     <div class="demo-video">
         <b-embed type="iframe"
+                 title="Demo Noare Films"
                  aspect="16by9"
                  src="https://www.youtube.com/embed/ZxJuLiBmUf8"
                  frameborder="0"
@@ -90,7 +91,7 @@
   display: inline-block;
 }
 .links2 {
-  padding: 15px 0px 30px;
+  padding: 15px 0px 40px;
 }
 .links2 a{
   margin: 0 10px;
