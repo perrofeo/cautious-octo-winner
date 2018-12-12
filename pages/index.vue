@@ -40,7 +40,7 @@
           target="_blank"
           class="button--white">Instagram</a>
       </div>
-          <h4>arkaitz@noarefilms.com</h4>
+          <h4>contacto@noarefilms.com</h4>
           </b-col>
         
     </b-row>
