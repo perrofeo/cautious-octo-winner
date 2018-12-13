@@ -3,7 +3,7 @@
     
     <div class="demo-video">
         <b-embed type="iframe"
-                 title="Demo Noare Films"
+                 title="Haz clic si te atreves"
                  aspect="16by9"
                  src="https://www.youtube.com/embed/ZxJuLiBmUf8"
                  frameborder="0"
@@ -17,8 +17,8 @@
         <b-col sm="8">
           
           <p>En Noare Films nos encanta relatar historias a través de imágenes y música. 
-            Nos dedicamos a la producción audiovisual en varios campos. 
-            Nuestro objetivo es crear videos con un toque cinematográfico que consigan emocionar y sorprender.</p><br>
+            Nos dedicamos a la producción audiovisual en varios campos y 
+            nuestro objetivo es crear videos con un toque cinematográfico que consigan emocionar y sorprender.</p><br>
             <div class="lista">
             <p>Somos especialistas en realizar:</p>
             <div class="lista2">
