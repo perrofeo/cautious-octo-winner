@@ -1,7 +1,7 @@
 <template>
 <section class="Header">
   <div class="VideoBg">
-    <video autoplay="autoplay" loop="loop" muted="muted" style="visibility: visible;">
+    <video playsinline autoplay="autoplay" loop="loop" muted="muted" style="visibility: visible;">
     <source src="~/assets/Noare15s.mp4" type="video/mp4">
   </video>
   <div class="container">
