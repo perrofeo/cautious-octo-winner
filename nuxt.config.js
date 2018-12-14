@@ -10,13 +10,19 @@ module.exports = {
     htmlAttrs: {
       lang: 'es'
     },
+    prefix:{og: 'http://ogp.me/ns#', fb: 'http://ogp.me/ns/fb#', website: 'http://ogp.me/ns/website#'},
  
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'google-site-verification', content: 'ZfxAdk-XMwQcwM3ZTjnCT38ROij-UchzfjLuoUl90oY' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { name: 'keywords', content: 'wedding,filmmaker,musicvideo,video boda,bodas,hondarribia,irun,bodaseuskadi,ezkontza,filmmaking,eventos' },
+      { hid: 'description', name: 'description', content: pkg.description },
+      { property:'og:title', content: 'Noare Films' },
+      { property:'og:type', content: 'Website' },
+      { property:'og:url', content: 'https://www.noarefilms.com/' },
+      { property:'og:image', content: 'https://www.noarefilms.com/' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
