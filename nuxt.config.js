@@ -22,7 +22,7 @@ module.exports = {
       { property:'og:title', content: 'Noare Films' },
       { property:'og:type', content: 'Website' },
       { property:'og:url', content: 'https://www.noarefilms.com/' },
-      { property:'og:image', content: 'https://www.noarefilms.com/' },
+      { property:'og:image', content: 'https://www.noarefilms.com/web_imagen.jpg' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
