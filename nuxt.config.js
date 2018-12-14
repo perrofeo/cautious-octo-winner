@@ -23,6 +23,7 @@ module.exports = {
       { property:'og:type', content: 'Website' },
       { property:'og:url', content: 'https://www.noarefilms.com/' },
       { property:'og:image', content: 'https://www.noarefilms.com/web_imagen.jpg' },
+      { property:'og:description', content: 'En Noare Films nos encanta relatar historias a través de imágenes y música.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
