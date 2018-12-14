@@ -23,7 +23,7 @@ module.exports = {
       { property:'og:type', content: 'Website' },
       { property:'og:url', content: 'https://www.noarefilms.com/' },
       { property:'og:image', content: 'https://www.noarefilms.com/web_imagen.jpg' },
-      { property:'og:description', content: 'En Noare Films nos encanta relatar historias a través de imágenes y música.' },
+      { property:'og:description', content: 'Capturamos la emoción de tu evento más especial. Puede ser una boda o la llegada del primer hombre a Marte.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
