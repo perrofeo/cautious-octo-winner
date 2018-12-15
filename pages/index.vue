@@ -8,7 +8,7 @@
   <div class="container">
     <div>
       <div class="logo">
-        <img src="~/assets/LOGO_noare_blanco.png" alt="Noare Films">
+        <img src="~/assets/LOGO_noare_blanco_op.png" alt="Noare Films">
       </div>
       
       <div class="links">
