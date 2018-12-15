@@ -21,9 +21,7 @@ html {
   box-sizing: border-box;
   
 }
-body{
-  font-display: auto;
-}
+
 *,
 *:before,
 *:after {

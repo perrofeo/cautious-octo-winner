@@ -18,7 +18,7 @@
           
           <p>En Noare Films nos encanta relatar historias a través de imágenes y música. 
             Nos dedicamos a la producción audiovisual en varios campos y 
-            nuestro objetivo es crear videos con un toque cinematográfico que consigan emocionar y sorprender.</p><br>
+            nuestro objetivo es crear vídeos con un toque cinematográfico que consigan emocionar y sorprender.</p><br>
             <div class="lista">
             <p>Somos especialistas en realizar:</p>
             <div class="lista2">
