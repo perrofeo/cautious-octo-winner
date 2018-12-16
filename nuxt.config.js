@@ -23,7 +23,7 @@ module.exports = {
       { property:'og:type', content: 'Website' },
       { property:'og:url', content: 'https://www.noarefilms.com/' },
       { property:'og:image', content: 'https://www.noarefilms.com/web_imagen.jpg' },
-      { property:'og:description', content: 'Capturamos la emoción de tu evento más especial. Puede ser una boda o la llegada del primer hombre a Marte.' },
+      { property:'og:description', content: 'Vídeos con un toque cinematográfico para tus eventos especiales. Reportajes de boda, videoclips, videomarketing, comuniones, eventos sociales, invitaciones de boda.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
