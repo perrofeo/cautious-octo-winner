@@ -73,7 +73,7 @@ workbox: {
 manifest: {
   name: "Noare Films",
 short_name: "Noare Films",
-description: "Vídeos con un toque cinematográfico para eventos especiales.",
+description: "Vídeos con un toque cinematográfico para tus eventos especiales. Reportajes de boda, videoclips, videomarketing, comuniones, eventos sociales, invitaciones de boda.",
 start_url: "/?standalone=true&utm_source=homescreen",
 background_color: "#000000",
 theme_color: "#000000",
