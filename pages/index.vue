@@ -41,7 +41,7 @@ export default {
       title: 'Noare Films',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'En Noare Films nos encanta relatar historias a través de imágenes y música.' }
+        { hid: 'description', name: 'description', content: 'Vídeos con un toque cinematográfico para tus eventos especiales. Reportajes de boda, videoclips, videomarketing, comuniones, eventos sociales, invitaciones de boda.' }
       ]
     }
   }
