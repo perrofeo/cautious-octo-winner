@@ -18,7 +18,7 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'google-site-verification', content: 'ZfxAdk-XMwQcwM3ZTjnCT38ROij-UchzfjLuoUl90oY' },
       { name: 'keywords', content: 'wedding,filmmaker,musicvideo,video boda,bodas,hondarribia,irun,bodaseuskadi,ezkontza,filmmaking,eventos' },
-      { hid: 'description', name: 'description', content: 'Vídeos con un toque cinematográfico para tus eventos especiales.' },
+      { hid: 'description', name: 'description', content: 'Vídeos con un toque cinematográfico para tus eventos especiales. Reportajes de boda, videoclips, videomarketing, comuniones, eventos sociales, invitaciones de boda.' },
       { property:'og:title', content: 'Noare Films' },
       { property:'og:type', content: 'Website' },
       { property:'og:url', content: 'https://www.noarefilms.com/' },
