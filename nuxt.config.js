@@ -70,6 +70,15 @@ workbox: {
  meta: {
   // ...
 },
+manifest: {
+  name: "Noare Films",
+short_name: "Noare Films",
+description: "Vídeos con un toque cinematográfico para eventos especiales.",
+start_url: "/?standalone=true&utm_source=homescreen",
+background_color: "#000000",
+theme_color: "#000000",
+  lang: 'es'
+},
 
 // ...
     
