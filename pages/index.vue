@@ -1,7 +1,7 @@
 <template>
 <section class="Header">
   <div class="VideoBg">
-    <video playsinline autoplay loop defaultMuted muted style="visibility: visible;">
+    <video  autoplay="autoplay" loop="loop" defaultMuted muted playsinline style="visibility: visible;">
     <source src="~/assets/Noare15s.mp4" type="video/mp4">
     <source src="~/assets/Noare15s.webm" type="video/webm">
   </video>
